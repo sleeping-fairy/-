@@ -1,0 +1,191 @@
+/* 清除全局样式 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 清除浮动 */
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+
+/* 清除下划线 */
+a {
+  text-decoration: none;
+}
+
+/* 清除圆点 */
+ul {
+  list-style: none;
+}
+
+input {
+  /* outline: none; */
+}
+div {
+  box-sizing: border-box;
+}
+/* 主体内容区域 */
+.container {
+  width: 1200px;
+  min-height: 850px;
+  background-color: #F3F3F3;
+  margin: 0 auto;
+}
+
+/* 左侧区域 */
+.left {
+  float: left;
+  width: 25%;
+  min-height: 850px;
+  padding-top: 50px;
+  /* background-color: yellow; */
+}
+
+.right {
+  float: left;
+  width: 75%;
+ min-height: 850px;
+  /* background-color: pink; */
+}
+.look,
+.liuyan {
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  margin-left: 50px;
+  border: 1px solid #787878;
+  background-color: green;
+}
+
+.look {
+  margin-bottom: 20px;
+  background-color: #CDCDCD;
+}
+.liuyan {
+  margin-top: 30px; 
+  background-color: #F3F3F3;
+}
+
+/* 右侧区域 */
+.main {
+  width: 80%;
+  min-height: 850px;
+  margin: 0 auto;
+  margin-top: 40px;
+  
+}
+h3 {
+  height: 35px;
+  font-weight: normal;
+  border-bottom: 2px solid #787878;
+}
+.main ul {
+  width: 100%;
+  height: 90%;
+  overflow: hidden;
+}
+.main li {
+  height: 30px;
+  line-height: 20px;
+  margin: 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+.time {
+  display: inline-block;
+  width: 25%;
+}
+.type {
+  display: inline-block;
+  width: 10%;
+  border-right: 2px solid #787878;
+}
+ul a{
+  display: inline-block;
+  width: 58%;
+  padding-left: 35px;
+  overflow: hidden;
+}
+
+.top {
+  width: 100%;
+  height: 150px;
+}
+.top h4 {
+  margin-bottom: 15px;
+}
+.top p {
+  height: 25px;
+  line-height: 25px;;
+  letter-spacing: 2px;
+}
+h5 {
+  font-size: 16px;
+  margin: 25px 0 ;
+}
+.table {
+  min-height: 500px;
+}
+.table ul {
+
+}
+.table ul li:nth-child(4) {
+  height: 150px;
+  margin-bottom: 45px;
+}
+.table ul li {
+  position: relative;
+  height: 50px;
+  border: none;
+}
+.t-left,
+.t-right {
+  display: inline-block;
+  /* height: 35px; */
+}
+.t-right {
+  float: right;
+}
+#name {
+  width: 130px;
+}
+#que,
+#email {
+  width: 200px;
+}
+#title,
+#box {
+  width: 630px;
+}
+#box {
+  min-height: 100px;
+  margin-left: 85px;
+}
+.same {
+  height: 35px;
+}
+textarea{
+  resize: none;
+}
+.l-title {
+  position: absolute;
+}
+#submit {
+  width: 100px;
+  margin-left: 85px;
+}
+#reset {
+  width:100px;
+  margin-left: 35px;
+}
+.hide {
+  display: none;
+}
